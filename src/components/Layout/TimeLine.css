@@ -1,0 +1,8 @@
+.time-line {
+    width: min(601px, 100%);
+
+}
+@media (min-width: 500px){
+    .time-line {
+    }
+}

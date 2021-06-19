@@ -1,0 +1,83 @@
+.page-babble {
+    cursor: pointer;
+
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-bottom: 1px solid var(--c-border-color);
+}
+.page-babble__container{
+    display: flex;
+    justify-content: flex-start;
+}
+.page-babble__rebabble{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    color:var(--input-icon);
+}
+.page-babble:hover {
+    background-color: var(--extra-back);
+}
+.page-babble__avatar {
+    margin-right: 10px;
+}
+
+.babble-info-user {
+    display: flex;
+    align-items: center;
+
+}
+.babble-info-user > :first-child {
+    margin-right: 10px;
+}
+.page-babble__body{
+    flex: 1;
+    padding-bottom: 10px;
+}
+.page-babble__body img {
+    border-radius: 15px;
+    width: 100%;
+}
+.page-babble__body--stats {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+.page-babble__body--stats > * {
+    display: flex;
+    align-items: center;
+}
+.page-babble__body--stats svg {
+    color: rgb(101, 119, 134);
+}
+
+.babble__image {
+    display: inline-block;
+    margin-top: 10px;
+}
+.page-babble .isLiked  {
+    color: red;
+}
+.page-babble .isLiked svg {
+    color: red;
+}
+.page-babble .isRebabble  {
+    color: rgb(23, 191, 99);
+}
+.page-babble .isRebabble svg {
+    color: rgb(23, 191, 99);
+}
+.babble--tag{
+    color: var(--c-theme);
+    font-weight: 700;
+}
+.babble--tag:not(:first-child){
+    margin-left: 5px;
+}
+
+

@@ -1,0 +1,44 @@
+.babble-editor {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 5px 15px;
+
+    border-bottom: 2px solid var(--c-border-color);
+}
+.babble-editor--avatar{
+    margin-top: 5px;
+}
+.babble-editor__body {
+    width: 100%;
+    margin-left: 10px;
+}
+.babble-editor__body textarea::placeholder {
+    font-size: 19px;
+    color: #9197a3;
+}
+.babble-editor textarea {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    
+    background-color: transparent;
+    color: var(--c-text-color);
+
+    width: 100%;
+    resize: none;
+}
+
+.babble-editor__body--secondary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.babble-editor__body--icons {
+    margin-right: -5px;
+    display: flex;
+    align-items: center;
+}
+#file-input{
+    display: none;
+}

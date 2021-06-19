@@ -1,0 +1,17 @@
+.layout {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+@media (min-width: 980px){
+    .layout {
+        max-width: 1060px;
+    }
+}
+@media (min-width: 1270px){
+    .layout{
+        max-width: 1280px;
+    }
+}
