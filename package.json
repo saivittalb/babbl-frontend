@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Frontend for Babbl using React.js, StorybookJS",
   "private": true,
+  "homepage": "https://babbl-frontend.netlify.app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShanmukhSreenivas/babbl-frontend.git"
+    "url": "git+https://github.com/saivittalb/babbl-frontend.git"
   },
   "license": "BSL-1.0",
   "scripts": {

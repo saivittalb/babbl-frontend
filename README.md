@@ -1,5 +1,6 @@
 # Babbl Frontend
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/45cd0cca-458a-4498-9578-f66fb34d073b/deploy-status)](https://app.netlify.com/sites/babbl-frontend/deploys)
 [![License](https://img.shields.io/badge/License-BSL-blue.svg)](https://opensource.org/licenses/BSL-1.0)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![GitHub followers](https://img.shields.io/github/followers/saivittalb.svg?style=social&label=Follow)](https://github.com/saivittalb?tab=followers)
