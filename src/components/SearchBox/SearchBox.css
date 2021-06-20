@@ -1,9 +1,9 @@
 .search-bar {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-center;
     background-color: var(--input-back);
-    border-radius: 9999px;
+    border-radius: 9px;
 }
 .search-bar input {
     height: 40px;
@@ -26,15 +26,6 @@
     font-size: 19px;
     color: var(--input-icon);
     padding-left: 15px;
-}
-
-
-
-.search-bar--small {
-    
-}
-.search-bar--medium {
-   
 }
 
 .search-bar--large {

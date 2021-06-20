@@ -11,18 +11,14 @@
     border-radius: 10px;
     text-align: center;
 }
-
 .form-control input {
     width: 100%;
     border-bottom: 1px solid var(--c-theme);
+    border-radius: 9px;
     height: 50px;
     padding:0 5px;
     margin: 5px 0;
-    color:#00b83e
-    
-    
-}
-.form-control input::placeholder {
+    color: var(--c-theme);
 }
 .auth-page__logo {
     display: flex;

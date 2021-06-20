@@ -28,7 +28,7 @@ function Register({ setAuth }) {
             !username ||
             !password
         ) {
-            return toast.error("You need to fill in all the fields");
+            return toast.error("Need to fill in all the fields");
         }
 
 

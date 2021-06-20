@@ -24,8 +24,9 @@
     height: 59px;
 }
 .avatar--xlarge {
-    width: 134px;
-    height: 134px;
+    width: 129px;
+    height: 129px;
+    margin-bottom: 20px;
 }
 
 .avatar-border img {

@@ -29,9 +29,9 @@
 
   @media (min-width: 1270px) {
     .sidebar {
-        align-items: flex-start;
-        width: 250px;
-        padding-left: 10px;
+        align-items: flex-end;
+        width: 300px;
+        padding-left: 5vw;
         padding-right: 10px;
     }
     .sidebar__babble {

@@ -53,7 +53,7 @@ function EditProfile() {
 
         <SearchBox value={fullname} onChange={(e) => setFullname(e.target.value)} icon={false} text="Full Name" />
 
-        <SearchBox value={bio} onChange={(e) => setBio(e.target.value)} icon={false} text="Biograpghy" />
+        <SearchBox value={bio} onChange={(e) => setBio(e.target.value)} icon={false} text="Biography" />
 
 
         <ThemeButton primary onClick={handleEdit}>Update</ThemeButton>

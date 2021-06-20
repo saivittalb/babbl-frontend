@@ -1,8 +1,9 @@
 .time-line {
-    width: min(601px, 100%);
-
+    width: min(801px, 100%);
+    margin-left: 5vw;
 }
 @media (min-width: 500px){
     .time-line {
+        margin-left: none;
     }
 }

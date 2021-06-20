@@ -8,7 +8,7 @@
 
     transition: var(--fade);
     font-size: var(--font);
-    border-radius: 7px;
+    border-radius: 9px;
 
     text-decoration: none;
     cursor: pointer;

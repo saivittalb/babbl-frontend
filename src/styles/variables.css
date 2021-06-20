@@ -9,9 +9,9 @@
     --extra-back: rgb(245, 248, 250);
     --trends-hover-bg: rgba(0, 0, 0, 0.03);
 
-    --c-theme: rgba(80, 200, 120, 1);
-    --c-theme-hover: rgba(50, 194, 98, 1);
-    --c-theme-hover2: rgb(27, 191, 82);
+    --c-theme: #61892F;
+    --c-theme-hover: #BC986A;
+    --c-theme-hover2: #86C232;
     --c-theme-10: rgba(29, 161, 242, 0.1);
     --fade: 120ms;
 

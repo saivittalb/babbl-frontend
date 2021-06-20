@@ -38,7 +38,7 @@ function BabbleEditor() {
 
     const handleSubmitPost = () => {
         if (!textBabble) {
-            return toast.error("Please write something");
+            return toast.error("Write something before trying to post.");
         }
 
         const tag = textBabble

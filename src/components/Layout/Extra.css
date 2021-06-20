@@ -1,6 +1,10 @@
 .layout-explore {
-    padding-right: 15px;
+    padding-right: 0px;
     min-width: 350px;
+    margin-left: 2vw;
+}
+.layout-explore--logo {
+    margin-left: 7.5vw;
 }
 .layout-explore--stick {
     margin-left: 30px;

@@ -9,7 +9,7 @@ import News from '../News'
 import Loading from '../loading'
 import Button from '../Button/Button.js'
 import { Link } from 'react-router-dom';
-import {Babbl } from '../icons'
+import { Babbl } from '../icons'
 
 import { FeedContext } from '../../context/FeedContext'
 
@@ -21,22 +21,11 @@ function Extra() {
     return (
         <section className="layout-explore">
 
-        <Link to="/"><Button icon><Babbl /></Button></Link>
+        <div className="layout-explore--logo">
+            <Link to="/"><Button icon><Babbl /></Button></Link>
+        </div>
 
             <div className="layout-explore--stick">
-
-                {router.pathname !== '/explore' && <List
-                    title="Trends for you"
-                    src="explore"
-                >
-                    {tags.slice(0, 4).map((tag) => (
-                        <News key={tag} tag={tag} />
-                    ))}
-
-                    {!tags && <div style={{ textAlign: "center" }}><Loading /> </div>}
-
-                </List>}
-
 
                 {router.pathname !== '/lists' &&
                     <List
@@ -54,6 +43,19 @@ function Extra() {
                     </List>
                 }
 
+                {router.pathname !== '/explore' && 
+                    <List
+                        title="Trends for you"
+                        src="explore"
+                    >
+                        {tags.slice(0, 4).map((tag) => (
+                            <News key={tag} tag={tag} />
+                        ))}
+
+                        {!tags && <div style={{ textAlign: "center" }}><Loading /> </div>}
+
+                    </List>
+                }
 
             </div>
         </section>

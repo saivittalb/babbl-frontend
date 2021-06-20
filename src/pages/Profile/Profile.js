@@ -47,7 +47,7 @@ function Profile() {
 
   if (deadend) {
     return (
-      <div>Sorry, this page isn't available</div>
+      <div style={{ marginTop: "20px", marginLeft: "3vw" }}>This page isn't available</div>
     );
   }
   return (
@@ -96,7 +96,7 @@ function Profile() {
         <div className="profile-page__detail">
           <TextTitle xbold>{profile.fullname ?? profile?.username}</TextTitle>
           <TextBody>@{profile?.username}</TextBody>
-          {/*<TextBody>{profile.createdAt}</TextBody>*/}
+          <TextBody>Joined at <span>{profile.createdAt}</span></TextBody>
           <div className='profile-page__detail--b'>
             <TextBody><span className='bold'>{profile.followingCount}</span> following</TextBody>
             <TextBody><span className='bold'>{profile.followersCount}</span> followers</TextBody>

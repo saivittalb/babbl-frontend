@@ -16,33 +16,31 @@
   }
   body {
     font-size: 1rem;
-    font-family:'PlayfairRegular','PlayfairBold'; 
-    /*-apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';*/
+    font-family:'FreeSans','FreeSansBold'; 
     background-color: var(--c-primary);
     color: var(--c-text-color);
   }
   
   @font-face {
-    font-family: 'PlayfairRegular';
-      src: url('fonts/PlayfairDisplay-Regular.eot'); /* IE9 Compat Modes */
-      src: url('fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-          url('fonts/PlayfairDisplay-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-          url('fonts/PlayfairDisplay-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-          url('fonts/PlayfairDisplay-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'FreeSans';
+      src: url('fonts/FreeSans.eot'); /* IE9 Compat Modes */
+      src: url('fonts/FreeSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/FreeSans.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/FreeSans.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/FreeSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/FreeSans.svg#svgFontName') format('svg'); /* Legacy iOS */
       font-weight: 400;
       font-style: normal;
   }
 
   @font-face {
-    font-family: 'PlayfairBold';
-      src: url('fonts/PlayfairDisplay-Bold.eot'); /* IE9 Compat Modes */
-      src: url('fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-          url('fonts/PlayfairDisplay-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-          url('fonts/PlayfairDisplay-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-          url('fonts/PlayfairDisplay-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'FreeSansBold';
+      src: url('fonts/FreeSansBold.eot'); /* IE9 Compat Modes */
+      src: url('fonts/FreeSansBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/FreeSansBold.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/FreeSansBold.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/FreeSansBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/FreeSansBold.svg#svgFontName') format('svg'); /* Legacy iOS */
       font-weight: 400;
       font-style: normal;
   }
